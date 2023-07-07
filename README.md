@@ -46,7 +46,17 @@ I evaluated the performance of the machine learning model using a variety of met
 
 ### Results:
 
-The machine learning model was able to predict the probability of success for a new SpaceX rocket launch with an accuracy of 87.7%. This means that the model was able to correctly predict whether or not a launch would be successful 87.7% of the time.
+#### Decision Tree Model for Predicting Launch Outcomes
+A decision tree model was used to predict the outcome of launches based on information such as the launch site, payload, orbit, and booster types. The model was found to have an accuracy of 87.7%, the highest accuracy of all the models that were tested.
+
+#### Launch Site
+The KSC launch site has the best launch outcomes. This is likely due to the fact that the KSC is located in a relatively stable launch environment.
+
+#### Time
+Launch success rates increase with time. This is likely due to the fact that launch providers have learned from past launches and have made improvements to their procedures.
+
+#### Payload
+Payloads of over 6000kg are much less likely to have successful launches. This is likely due to the fact that larger payloads are more difficult to launch and are more susceptible to weather conditions.
 
 ## Installation
 To run the project, you will need to have Python and the following libraries installed:
@@ -60,6 +70,7 @@ Install the required dependencies by running pip install  or create a virtual en
 Run the Jupyter notebooks in the specified order mentioned in the project structure to replicate the workflow.
 
 ## Conclusion
+The decision tree model was able to identify several factors that are associated with the success or failure of a launch. This information can be used by launch providers to improve their launch success rates.
 The results of this project show that it is possible to use machine learning to predict the success of SpaceX rocket launches. This information could be used by SpaceX to improve the safety of their launches and to reduce the cost of their operations.
 
 Thank you for your interest in my project!
