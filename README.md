@@ -37,17 +37,15 @@ I performed exploratory data analysis (EDA) to understand the data and identify 
 - 06_SpaceX_Interactive_Visual_Analytics_Folium.ipynb: This Jupyter notebook demonstrates interactive analytics using the Folium library for geospatial visualizations.
 - 05_SpaceX_Interactive_Visual_Analytics_Plotly.py: This Jupyter notebook showcases interactive analytics and visualizations using the Plotly library.
 
-### Machine Model:
+### Machine Learning Model:
 I built a machine learning model to predict the probability of success for a new SpaceX rocket launch. I experimented with a variety of machine learning algorithms, including logistic regression, decision trees, and random forests. The best performing model was a Decision Trees model with an accuracy of 87.7%.
 
 I evaluated the performance of the machine learning model using a variety of metrics, including accuracy, precision, recall, and F1 score. I also performed a confusion matrix analysis to understand the types of errors that the model was making.
 
 - 08_SpaceX_Machine_Learning_Prediction.ipynb: This Jupyter notebook focuses on applying machine learning algorithms to make predictions and solve the problem at hand.
 
-### Data and Results:
+### Results:
 
-
-Results
 The machine learning model was able to predict the probability of success for a new SpaceX rocket launch with an accuracy of 87.7%. This means that the model was able to correctly predict whether or not a launch would be successful 87.7% of the time.
 
 ## Installation
